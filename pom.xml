@@ -24,6 +24,10 @@
         <project.source.version>1.8</project.source.version>
         <project.target.version>1.8</project.target.version>
         <project.encoding>UTF-8</project.encoding>
+
+        <commons.util.version>2.0.1</commons.util.version>
+        <commons.util.apache.lang.version>1.1.1</commons.util.apache.lang.version>
+        <commons.util.apache.math.version>1.0.1</commons.util.apache.math.version>
     </properties>
 
     <packaging>jar</packaging>
@@ -47,17 +51,17 @@
         <dependency>
             <groupId>com.terabundle</groupId>
             <artifactId>commons-util</artifactId>
-            <version>2.0.0</version>
+            <version>${commons.util.version}</version>
         </dependency>
         <dependency>
             <groupId>com.terabundle</groupId>
             <artifactId>commons-util-apache-lang</artifactId>
-            <version>1.1.0</version>
+            <version>${commons.util.apache.lang.version}</version>
         </dependency>
         <dependency>
             <groupId>com.terabundle</groupId>
             <artifactId>commons-util-apache-math</artifactId>
-            <version>1.0.0</version>
+            <version>${commons.util.apache.math.version}</version>
         </dependency>
 
         <!-- Precision-->
